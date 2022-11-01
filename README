@@ -1,0 +1,10 @@
+# fluentd-s3-docker
+
+Run fluentd HTTP input with the AWS S3 output plugin in Docker.
+
+1. Create the fluentd-s3-docker/data folder 
+2. Create the file `secrets.env` by setting your AWS credentials.
+3. Run the docker compose file:
+```
+$ docker compose up --build --force-recreate
+```

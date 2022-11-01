@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  fluenthttps3:
+    build: .
+    ports: 
+      - 9880:9880
+    volumes:
+      - ./data:/var/log/fluent/data
+    env_file:
+      - secrets.env

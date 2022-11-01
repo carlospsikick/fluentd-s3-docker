@@ -1,0 +1,4 @@
+data/
+attic/
+.DS_STORE
+*.env
